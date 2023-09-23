@@ -14,7 +14,7 @@ export const UserList2 = (props: UserList2PropsType) => {
 
     return (
         <div id={'hw02-users'}>
-            <h2>User List2:</h2>
+            <h2>User List:</h2>
             <button id={'hw02-filter-button'} onClick={onClickButtonHandler}>SHOW ME FRIENDS FROM LA</button>
             <ul>
                 {props.users.myFriends.map((user) => (
